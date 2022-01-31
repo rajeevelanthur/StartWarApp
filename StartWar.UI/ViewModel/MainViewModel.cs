@@ -15,6 +15,7 @@ namespace StartWar.UI.ViewModel
     {
         public MainViewModel()
         {
+            //Change on 31/01/2022
             //(FrameContent.Parent as Frame).NavigationService.Navigate(new FilmDetailView());
             //FrameContent.NavigationService.Navigate(new FilmDetailView());
             this.GetFilmList();
