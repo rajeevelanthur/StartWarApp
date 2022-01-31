@@ -20,7 +20,7 @@
     </Page.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition  Height="40" />
+            <RowDefinition  Height="40"   />
             <RowDefinition />
         </Grid.RowDefinitions>
         <TextBlock Text="List of Vehicles"
@@ -28,6 +28,7 @@
                    VerticalAlignment="Center"
                    FontSize="32"
                    Margin="10,0,0,0"
+                   Background="Red"
                    Grid.Row="0" />
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
